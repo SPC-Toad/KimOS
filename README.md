@@ -4,6 +4,7 @@
 - Created 12/29/24!
 - This is where I learn and apply my OS knowledge 
 - This is a long term project [ `never-ending project :)` ]
+- I will make the readme(s) better by end of winter break. SORRY!
 - If you want to know what I have learned during OS journey, check out the sys-lvl-notes in my github repo.
 
 ### Functionalities

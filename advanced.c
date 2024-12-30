@@ -1295,10 +1295,12 @@ void init( multiboot* pmb ) {
   terminal_initialize();
 
   // initialize memory (including root setup)
-  terminal_writestring("Welcome to Kim OS!");
 
   init_memory(pmb);
   char buffer[10];
+  
+  terminal_writestring("Welcome to Kim OS! Kim OS is using GRUB 2 for bootloader!\n");
+  terminal_writestring("I am testing the file system\n\n");
 
   terminal_writestring("superblock free blocks: ");
   itoa(buffer, 'd', ram_disk.super_block->free_blocks);
