@@ -81,6 +81,9 @@ $make run
 # Erase the elf binary file (Recommended but can be skipped)
 $make clean
 
+# Create static library (*.a file) {it will automatically compile all the module c file --> obj file}
+$make library
+
 # Compile c file to elf binary file
 $make kernel
 
