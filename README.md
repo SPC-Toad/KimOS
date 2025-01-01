@@ -4,27 +4,25 @@
 - Created 12/29/24!
 - This is where I learn and apply my OS knowledge 
 - This is a long term project [ `never-ending project :)` ]
-- I will make the readme(s) better by end of winter break. SORRY!
-- If you want to know what I have learned during OS journey, check out the sys-lvl-notes in my github repo.
+- If you want to know what I have learned during OS journey, check out the `sys-lvl-notes` in my github repo and `notes` folder in the KIMOS.
 
 ### Functionalities
 #### Completed
 1. GRUB 2 setup (old setup was using GRUB legacy --v 0.97)
 2. memory mapping (using multiboot)
-3. Context switching (FIFO with yield)
-4. File system structure layout and initalizations
+3. Fragmentation (modulizing all the work into header files)
 
 
 
 #### To do list
-1. Fragmentation (modulizing all the work into header files)
-2. Setup IDT (Interrupt descripter table)
-3. Keyboard driver (requires IDT and IRQ 1 call)
-4. Context switching (Round Robin by using PIT for time)
-5. `Full` file system support
+- Context switching (FIFO with yield) {under construction `refining phase`}
+- `Full` file system support {under construction `support for the indirect pointers and proper bitmap counter`}
     - correct index node tracking (in bitmap)
     - Support single and double indirect pointers
-6. So much more! hehehehheheheheheh
+- Setup IDT (Interrupt descripter table) {under construction}
+1. Keyboard driver (requires IDT and IRQ 1 call)
+2. Context switching (Round Robin(RR) by using PIT for time)
+4. So much more!
 
 <hr>
 
