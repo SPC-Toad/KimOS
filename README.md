@@ -3,7 +3,7 @@
 ## *About*
 - Created 12/29/24!
 - This is where I learn and apply my OS knowledge 
-- This is a long term project [ `never-ending project :)` ]
+- This is a long term project [ `never-ending project :)` ] (Update: this is 32 bit os, I am building another one that is 64 bit OS)
 - If you want to know what I have learned during OS journey, check out the `sys-lvl-notes` in my github repo and `notes` folder in the KIMOS.
 
 ### Functionalities
